@@ -25,7 +25,9 @@ A reaction wheel operates on the **conservation of angular momentum**. In the a
     
 
 Mathematically, 
-![Conservation of Angular Momentum](../diagram/conservation-of-angular-momentom-in-reaction-wheel.png)
+
+![Conservation of Angular Momentum](../diagrams/conservation-of-angular-momentom-in-reaction-wheel.png)
+
 This is the core scientific principle behind how reaction wheels control a spacecraft's orientation.
 
 ### Purpose and Applications
