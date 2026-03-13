@@ -25,15 +25,6 @@
 ## References 
 KIBOCUBE Academy
 
-# Attitude Control Demo (Reaction Wheel / Sun Tracker)
-
-## Goal
-Platform auto-rotates (1-axis) so the brightest LDR faces the lamp, representing Sun tracking for satellites.
-
-## Why this matters
-- For power generation we need to direct solar panels towards the Sun.
-- For radio transmission we need to direct antennas towards Earth.
-
 ## Project structure
 - `docs/` – theory, notes, and design decisions
 - `hardware/` – schematics and 3D models
