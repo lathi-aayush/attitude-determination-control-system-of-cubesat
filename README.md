@@ -40,3 +40,8 @@
 |                                          | ![3D model – back view](hardware/cad/3D_model_back_aarambhsat.jpg)                |
 |                                          | ![3D model – front view](hardware/cad/3D_model_front_aarambhsat.jpg)              |
 | Schematic Connection diagram             | ![AarambhSat schematic](hardware/schematics/AarambhSat-block-diagram.png)         |
+
+## Licensing
+
+- **Code and documentation:** MIT License — see [LICENSE](LICENSE). You may use this repo to build your own attitude control system.
+- **3D models and mechanical designs** (in `hardware/cad/` and `hardware/schematics/`): **All rights reserved.** Permission is required before using, modifying, or manufacturing from these designs. See [hardware/LICENSE-3D-MODELS.md](hardware/LICENSE-3D-MODELS.md).
