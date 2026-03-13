@@ -21,3 +21,29 @@
 ---
 ## Project Photo
 ![AarambhSat](diagrams/aarambhsat_cubesat.jpg)
+
+## References 
+KIBOCUBE Academy
+
+# Attitude Control Demo (Reaction Wheel / Sun Tracker)
+
+## Goal
+Platform auto-rotates (1-axis) so the brightest LDR faces the lamp, representing Sun tracking for satellites.
+
+## Why this matters
+- For power generation we need to direct solar panels towards the Sun.
+- For radio transmission we need to direct antennas towards Earth.
+
+## Project structure
+- `docs/` – theory, notes, and design decisions
+- `hardware/` – schematics and 3D models
+- `firmware/` – Arduino / embedded code for the controller
+- `experiments/` – calibration, debugging, and logs
+
+## Quick start
+1. Open `firmware/attitude-controller` in Arduino IDE or PlatformIO.
+2. Flash to Arduino Uno.
+3. See `docs/making-the-attitude-system.md` for wiring and setup.
+
+## References
+See `references/links.md` for tutorials, datasheets, and background reading.
