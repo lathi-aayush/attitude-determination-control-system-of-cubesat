@@ -1,4 +1,4 @@
-![Reaction Wheel Diagram](diagrams/reaction-wheel-diagram-2.png)
+![Reaction Wheel Diagram](../diagrams/reaction-wheel-diagram-2.png)
 ---
 
 Reference Link : [Tutorial/Theory on Reaction Wheel](https://youtu.be/zkB3eqjh_mk?si=pBcxIVd9OCK9g9aG)
@@ -25,7 +25,7 @@ A reaction wheel operates on the **conservation of angular momentum**. In the a
     
 
 Mathematically, 
-![Conservation of Angular Momentum](diagram/conservation-of-angular-momentom-in-reaction-wheel.png)
+![Conservation of Angular Momentum](../diagram/conservation-of-angular-momentom-in-reaction-wheel.png)
 This is the core scientific principle behind how reaction wheels control a spacecraft's orientation.
 
 ### Purpose and Applications
@@ -45,7 +45,7 @@ In hobby and educational projects, like the Arduino MPU6050 model found on Print
 
 ---
 
-![Reaction Wheel Diagram](diagrams/reaction-wheel-diagram.png)
+![Reaction Wheel Diagram](../diagrams/reaction-wheel-diagram.png)
 
 ---
 
