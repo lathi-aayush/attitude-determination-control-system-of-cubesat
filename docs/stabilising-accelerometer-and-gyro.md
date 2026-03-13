@@ -19,8 +19,6 @@ This blends the fast gyroscope with stable accelerometer → smooth + accurate r
 
 ---
 
----
-
 ### 🧩 Connection Summary
 
 |Component|Arduino Pin|
