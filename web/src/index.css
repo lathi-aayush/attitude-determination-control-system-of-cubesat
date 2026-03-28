@@ -1,57 +1,57 @@
 @import "tailwindcss";
 
 @theme {
-  --color-error: #ff716c;
+  --color-error: #7c5cff;
   --color-on-tertiary-container: #005639;
   --color-tertiary-fixed: #0df5aa;
   --color-inverse-on-surface: #54545f;
   --color-on-secondary-fixed-variant: #5229d4;
-  --color-tertiary: #6dffbe;
-  --color-surface-variant: #232532;
-  --color-secondary-fixed: #d5cbff;
-  --color-surface-container-highest: #232532;
+  --color-tertiary: #2dffb3;
+  --color-surface-variant: #1a1e2d;
+  --color-secondary-fixed: #c7bbff;
+  --color-surface-container-highest: #181c2a;
   --color-error-container: #9f0519;
   --color-on-error: #490006;
   --color-on-tertiary: #006040;
-  --color-outline-variant: #464752;
-  --color-surface-tint: #6fddff;
+  --color-outline-variant: #343b56;
+  --color-surface-tint: #3ad6ff;
   --color-on-primary-fixed: #002f3a;
   --color-on-tertiary-fixed-variant: #006141;
-  --color-surface-bright: #292b39;
-  --color-surface-dim: #0c0e16;
+  --color-surface-bright: #202535;
+  --color-surface-dim: #05060e;
   --color-on-secondary-container: #d4c9ff;
-  --color-secondary: #a18eff;
+  --color-secondary: #7c5cff;
   --color-primary-fixed: #36d4fd;
-  --color-surface-container-lowest: #000000;
-  --color-surface-container: #171924;
+  --color-surface-container-lowest: #05060e;
+  --color-surface-container: #101525;
   --color-on-primary: #004c5e;
-  --color-surface: #02040a;
+  --color-surface: #0d1b2e;
   --color-inverse-surface: #fbf8ff;
-  --color-primary: #6fddff;
+  --color-primary: #3ad6ff;
   --color-on-secondary-fixed: #3500a4;
   --color-on-secondary: #21006e;
-  --color-primary-dim: #15c6ee;
-  --color-background: #02040a;
-  --color-secondary-dim: #7757fa;
-  --color-surface-container-low: #11131d;
+  --color-primary-dim: #22c7f0;
+  --color-background: #05060e;
+  --color-secondary-dim: #6f4df7;
+  --color-surface-container-low: #0d1220;
   --color-on-error-container: #ffa8a3;
   --color-inverse-primary: #00687f;
-  --color-on-surface: #eeecfa;
+  --color-on-surface: #eef2ff;
   --color-secondary-fixed-dim: #c7bbff;
   --color-on-tertiary-fixed: #00412a;
-  --color-outline: #747480;
+  --color-outline: #606a8d;
   --color-on-primary-container: #004352;
-  --color-tertiary-dim: #00e59e;
-  --color-tertiary-container: #0df5aa;
+  --color-tertiary-dim: #18e7a2;
+  --color-tertiary-container: #2dffb3;
   --color-error-dim: #d7383b;
-  --color-surface-container-high: #1d1f2b;
-  --color-primary-container: #31d1fa;
-  --color-primary-fixed-dim: #15c6ee;
-  --color-on-background: #eeecfa;
-  --color-secondary-container: #4816cb;
+  --color-surface-container-high: #131a2a;
+  --color-primary-container: #3ad6ff;
+  --color-primary-fixed-dim: #22c7f0;
+  --color-on-background: #eef2ff;
+  --color-secondary-container: #4c32bf;
   --color-tertiary-fixed-dim: #00e59e;
   --color-on-primary-fixed-variant: #004e60;
-  --color-on-surface-variant: #aaaab6;
+  --color-on-surface-variant: #a6afcb;
 
   --font-headline: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
@@ -75,7 +75,7 @@
 }
 
 .star-bg {
-  background: linear-gradient(135deg, #02040a 0%, #050b1a 100%);
+  background: linear-gradient(135deg, #05060e 0%, #0d1b2e 100%);
   position: fixed;
   inset: 0;
   z-index: -1;
@@ -118,7 +118,7 @@
   pointer-events: none;
   z-index: -1;
   overflow: hidden;
-  background: radial-gradient(circle at center, #050b1a 0%, #02040a 100%);
+  background: radial-gradient(circle at center, #0d1b2e 0%, #05060e 100%);
 }
 
 .star-fall {
@@ -149,7 +149,8 @@
   pointer-events: none;
   z-index: -1;
   overflow: hidden;
-  background: radial-gradient(circle at 50% 50%, #050b1a 0%, #02040a 100%);
+  background:
+    radial-gradient(circle at 54% 56%, #051137 0%, #030b27 36%, #02061a 72%, #010311 100%);
 }
 
 .star-drift {
@@ -203,4 +204,83 @@
   background: linear-gradient(180deg, rgba(111, 221, 255, 0.5), rgba(21, 198, 238, 0.42));
   border-radius: 999px;
   border: 2px solid rgba(5, 11, 26, 0.7);
+}
+
+@layer base {
+  :root {
+    --background: 48 33.33% 97.06%;
+    --foreground: 48 19.61% 20%;
+    --card: 48 33.33% 97.06%;
+    --card-foreground: 60 2.56% 7.65%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 50.77 19.4% 13.14%;
+    --primary: 15.11 55.56% 52.35%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 46.15 22.81% 88.82%;
+    --secondary-foreground: 50.77 8.5% 30%;
+    --muted: 44 29.41% 90%;
+    --muted-foreground: 50 2.36% 50.2%;
+    --accent: 46.15 22.81% 88.82%;
+    --accent-foreground: 50.77 19.4% 13.14%;
+    --destructive: 60 2.56% 7.65%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 50 7.5% 84.31%;
+    --input: 50.77 7.98% 68.04%;
+    --ring: 210 74.8% 49.8%;
+    --chart-1: 18.28 57.14% 43.92%;
+    --chart-2: 251.45 84.62% 74.51%;
+    --chart-3: 46.15 28.26% 81.96%;
+    --chart-4: 256.55 49.15% 88.43%;
+    --chart-5: 17.78 60% 44.12%;
+    --sidebar: 51.43 25.93% 94.71%;
+    --sidebar-foreground: 60 2.52% 23.33%;
+    --sidebar-primary: 15.11 55.56% 52.35%;
+    --sidebar-primary-foreground: 0 0% 98.43%;
+    --sidebar-accent: 46.15 22.81% 88.82%;
+    --sidebar-accent-foreground: 0 0% 20.39%;
+    --sidebar-border: 0 0% 92.16%;
+    --sidebar-ring: 0 0% 70.98%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 60 2.7% 14.51%;
+    --foreground: 46.15 9.77% 73.92%;
+    --card: 60 2.7% 14.51%;
+    --card-foreground: 48 33.33% 97.06%;
+    --popover: 60 2.13% 18.43%;
+    --popover-foreground: 60 5.45% 89.22%;
+    --primary: 14.77 63.11% 59.61%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 48 33.33% 97.06%;
+    --secondary-foreground: 60 2.13% 18.43%;
+    --muted: 60 3.85% 10.2%;
+    --muted-foreground: 51.43 8.86% 69.02%;
+    --accent: 48 10.64% 9.22%;
+    --accent-foreground: 51.43 25.93% 94.71%;
+    --destructive: 0 84.24% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 60 5.08% 23.14%;
+    --input: 52.5 5.13% 30.59%;
+    --ring: 210 74.8% 49.8%;
+    --chart-1: 18.28 57.14% 43.92%;
+    --chart-2: 251.45 84.62% 74.51%;
+    --chart-3: 48 10.64% 9.22%;
+    --chart-4: 248.28 25.22% 22.55%;
+    --chart-5: 17.78 60% 44.12%;
+    --sidebar: 30 3.33% 11.76%;
+    --sidebar-foreground: 46.15 9.77% 73.92%;
+    --sidebar-primary: 0 0% 20.39%;
+    --sidebar-primary-foreground: 0 0% 98.43%;
+    --sidebar-accent: 60 3.45% 5.69%;
+    --sidebar-accent-foreground: 46.15 9.77% 73.92%;
+    --sidebar-border: 0 0% 92.16%;
+    --sidebar-ring: 0 0% 70.98%;
+  }
+}
+
+@layer base {
+  body {
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
 }

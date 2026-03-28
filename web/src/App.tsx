@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { AssessmentsHubPage } from "./pages/AssessmentsHubPage";
+import { AnimatedCardsStackPage } from "./pages/AnimatedCardsStackPage";
 import { ComponentsAssessmentPage } from "./pages/ComponentsAssessmentPage";
 import { ComponentsPage } from "./pages/ComponentsPage";
 import { LearningAssessmentPage } from "./pages/LearningAssessmentPage";
@@ -14,6 +15,7 @@ export default function App() {
       <Route path="/learning/assessment" element={<LearningAssessmentPage />} />
       <Route path="/components" element={<ComponentsPage />} />
       <Route path="/components/assessment" element={<ComponentsAssessmentPage />} />
+      <Route path="/components/animated-cards-stack" element={<AnimatedCardsStackPage />} />
       <Route path="/assessments" element={<AssessmentsHubPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

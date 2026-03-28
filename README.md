@@ -1,5 +1,9 @@
 # AarambhSat – Attitude Direction and Control System
 ---
+## Project Photo
+![Website Aarambhsat](diagrams/website_project_page.png)
+---
+
 ## Significance of ADCS 
 • ADCS keeps the satellite <mark style="background: #BBFABBA6;">stable and correctly oriented </mark> <br>
 • It helps point solar panels towards the Sun  
