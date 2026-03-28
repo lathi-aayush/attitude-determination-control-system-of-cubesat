@@ -7,8 +7,6 @@ web/.vite/
 .env.*
 !.env.example
 
-
-
 hardware/cad/final_aarambhsat.zip
 hardware/schematics/AarambhSat-schematic-diagram.pdf
 hardware/datasheets/
