@@ -1,6 +1,6 @@
 # AarambhSat – Attitude Direction and Control System
 ---
-## Project Photo
+## Project Website
 ![Website Aarambhsat](diagrams/website_project_page.png)
 ---
 

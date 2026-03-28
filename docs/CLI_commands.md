@@ -1,8 +1,9 @@
 # AarambhSat CLI Commands
 
-Curated command list for the exhibition terminal and model simulation.
-
-### Commands
+## Project Photo
+![Website Aarambhsat](diagrams/website_project_page.png)
+---
+### List of Commands
 
 | Command    | Description |
 |-----------|-------------|
