@@ -1,7 +1,8 @@
 # AarambhSat – Attitude Direction and Control System
 ---
-## Project Website
-![Website Aarambhsat](diagrams/website_project_page.png)
+## Project Website Link - [https://aarambhsat.lathiaayush.com](https://aarambhsat.lathiaayush.com)
+**Click the dashboard below to open the live system.**
+[![Website Aarambhsat](diagrams/website_project_page.png)](https://aarambhsat.lathiaayush.com)
 ---
 
 ## Significance of ADCS 
